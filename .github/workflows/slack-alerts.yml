@@ -1,7 +1,5 @@
 name: "Slack alerts for Sigrid findings"
 on:
-  schedule:
-    - cron: "0 6 * * 1-5"
 jobs:
   slackalerts:
     name: "Send Slack alerts"
